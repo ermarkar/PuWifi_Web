@@ -1,0 +1,23 @@
+.pw-screen-margin {
+    margin :0;
+}
+
+.pw-logo {
+    font-size: 2.1rem;
+    padding: 10px;
+}
+
+@media only screen and (min-width: 768px) {
+    .pw-screen-margin {
+        margin :0 15% 0 15%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .pw-logo {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        padding: unset;
+    }
+}

@@ -1,6 +1,21 @@
-<a [routerLink]="['/about-us']">Url Title</a>
-<a [routerLink]="['/about-app']">Url Title</a>
-<a [routerLink]="['/app-events']">Url Title</a>
+<div>
+    <nav>
+        <div class="nav-wrapper pw-screen-margin">
+            <a href="#" class="pw-logo">PuWifi</a>
+            <ul id="nav-mobile" class="right hide-on-small-and-down">
+                <li>
+                    <a [routerLink]="['/about-app']">App</a>
+                </li>
+                <li>
+                    <a [routerLink]="['/app-events']">App Events</a>
+                </li>
+                <li>
+                    <a [routerLink]="['/about-us']">About Us</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</div>
 
 <div>
     <!-- Router Outlet -->

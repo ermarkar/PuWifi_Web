@@ -5,4 +5,6 @@
 @import "~materialize-css/sass/materialize";
 
 // component scss
-@import "../app.component.scss";
+@import "_common";
+@import "../app.component";
+@import "../components/about-app/about-app.component";

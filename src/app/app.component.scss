@@ -35,6 +35,9 @@
     padding: 20px;
     background-color:#1e1e1e;
     color:#ddd;
+    a{
+        color: $primary-color;
+    }
     
     .pw-footer__title{
         font-size: 38px;
@@ -42,7 +45,6 @@
     }
     .pw-footer__social{
         display: flex;
-        
     }
     .pw-footer__social-icon {
         background: #b7b7b7;
@@ -54,5 +56,20 @@
         font-size: 25px;
         color:#111;
         margin-right: 5px;
+    }
+    .pw-footer__social-icon:hover{
+        color:#fff;
+    }
+    .pw-footer__social-icon.fa-facebook-f:hover {
+        background-color: #365899;
+    }
+    .pw-footer__social-icon.fa-twitter:hover {
+        background-color: #48AAE6;
+    }
+    .pw-footer__social-icon.fa-youtube:hover {
+        background-color: #FF0000;
+    }
+    .pw-footer__social-icon.fa-instagram:hover {
+        background-color: #d1006c;
     }
 }

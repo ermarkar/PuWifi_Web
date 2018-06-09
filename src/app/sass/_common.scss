@@ -3,8 +3,27 @@
     line-height: 110%;
     margin: 1.52rem 0 0.912rem 0;
     font-weight: 400;
+    display: block;
 }
-
+.pw-app__quote {
+    padding: 10px 20px;
+    font-size: 18px;
+    font-style: italic;
+    color:gray;
+    margin-left:10px;
+}
 .pw-app__text-content {
     font-size: 16px;
+    p{
+        margin-left: 5px;
+    }
+}
+
+ul.pw-app__listing {
+    margin-left: 50px;
+} 
+
+ul.pw-app__listing > li {
+    padding: 10px;
+    list-style-type: disc !important;
 }

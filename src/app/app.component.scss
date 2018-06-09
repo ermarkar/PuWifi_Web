@@ -26,3 +26,33 @@
     padding: 20px;
     line-height: 1.8em;
 }
+
+.pw-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top:10px;
+    padding: 20px;
+    background-color:#1e1e1e;
+    color:#ddd;
+    
+    .pw-footer__title{
+        font-size: 38px;
+        font-weight: 400;
+    }
+    .pw-footer__social{
+        display: flex;
+        
+    }
+    .pw-footer__social-icon {
+        background: #b7b7b7;
+        width:50px;
+        height:50px;
+        border-radius: 50px;
+        line-height: 50px;
+        text-align: center;
+        font-size: 25px;
+        color:#111;
+        margin-right: 5px;
+    }
+}

@@ -21,7 +21,10 @@
       "styles": [
         "app/sass/styles.scss"
       ],
-      "scripts": [],
+      "scripts": [
+        "../node_modules/hammerjs/hammer.js",
+        "../node_modules/materialize-css/dist/js/materialize.js"
+      ],
       "environmentSource": "environments/environment.ts",
       "environments": {
         "dev": "environments/environment.ts",

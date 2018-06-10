@@ -1,0 +1,15 @@
+.pw-about-us__app-listing {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    .pw-about-us__app {
+        width: 350px;
+        margin: 20px;
+    }
+    .card-image {
+        background: rgba(0, 0, 0, 0.5)
+    }
+    img {
+        opacity: 0.8;
+    }
+}

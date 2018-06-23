@@ -1,5 +1,5 @@
 .pw-screen-margin {
-    margin :0;
+    margin: 0;
 }
 
 .pw-logo {
@@ -9,7 +9,7 @@
 
 @media only screen and (min-width: 768px) {
     .pw-screen-margin {
-        margin :0 15% 0 15%;
+        margin: 0 15% 0 15%;
     }
 }
 
@@ -31,34 +31,36 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top:10px;
+    margin-top: 10px;
     padding: 20px;
-    background-color:#1e1e1e;
-    color:#ddd;
-    a{
+    background-color: #1e1e1e;
+    color: #ddd;
+    a {
         color: $primary-color;
     }
-    
-    .pw-footer__title{
+    .pw-footer__title {
         font-size: 38px;
         font-weight: 400;
     }
-    .pw-footer__social{
+    .pw-footer__social {
         display: flex;
+        li:hover {
+            transform: translate3d(0px, -4.8572px, 0px);
+        }
     }
     .pw-footer__social-icon {
         background: #b7b7b7;
-        width:50px;
-        height:50px;
+        width: 50px;
+        height: 50px;
         border-radius: 50px;
         line-height: 50px;
         text-align: center;
         font-size: 25px;
-        color:#111;
+        color: #111;
         margin-right: 5px;
     }
-    .pw-footer__social-icon:hover{
-        color:#fff;
+    .pw-footer__social-icon:hover {
+        color: #fff;
     }
     .pw-footer__social-icon.fa-facebook-f:hover {
         background-color: #365899;

@@ -1,0 +1,19 @@
+.pw-app-events {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    .card {
+        width: 48%;
+        cursor: pointer;
+    }
+    .card-image {
+        img {
+            height: 250px;
+            object-fit: cover;
+        }
+    }
+    .card-content--hide {
+        height: 0;
+        display: none;
+    }
+}

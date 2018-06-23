@@ -9,7 +9,11 @@
     .card-image {
         background: rgba(0, 0, 0, 0.5)
     }
+    .card-title {
+        font-size: 28px;
+    }
     img {
-        opacity: 0.8;
+        cursor: pointer;
+        opacity: 0.6;
     }
 }

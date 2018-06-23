@@ -1,0 +1,18 @@
+.pw-contact-us {
+    display: flex;
+    margin-top: 40px;
+    flex-wrap: wrap;
+    .pw-contact-us__form {
+        max-width: 65%;
+    }
+    
+    .pw-contact-us__address {
+        margin-left: 30px;
+        .pw-contact-us__address-title {
+            font-size: 1.5rem;
+        }
+        .pw-contact-us__address-content {
+            margin-left: 25px;
+        }
+    }
+}

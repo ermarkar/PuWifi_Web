@@ -1,1 +1,19 @@
-App Events
+<div class="pw-screen-margin">
+    <div class="pw-app__text-content">
+        <span class="pw-app__title">
+            Popular News and Event from PU!!!
+        </span>
+
+        <div class="pw-app-events">
+            <div class="card" *ngFor="let event of events" (click)="showMore(cardContent)">
+                <div class="card-image">
+                    <img [src]="event.img_url">
+                    <span class="card-title">{{event.title}}</span>
+                </div>
+                <div class="card-content card-content--hide" #cardContent>
+                    <p>{{event.description}}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

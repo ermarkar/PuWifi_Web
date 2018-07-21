@@ -56,6 +56,29 @@
                     </a>
                 </li>
             </ul>
+
+            <a href='#' data-target='menu_dropdown' class="pw-menu-btn dropdown-trigger hide-on-med-and-up" #menuDropdown>
+                <i class="fa fa-bars" style="margin-top:15px"></i>
+            </a>
+
+            <!-- Dropdown Structure -->
+            <ul id='menu_dropdown' class='dropdown-content'>
+                <li>
+                    <a [routerLink]="['/home']">Home</a>
+                </li>
+                <li class="divider" tabindex="-1"></li>
+                <li>
+                    <a [routerLink]="['/app-events']">App Events</a>
+                </li>
+                <li class="divider" tabindex="-1"></li>
+                <li>
+                    <a [routerLink]="['/about-us']">About Us</a>
+                </li>
+                <li class="divider" tabindex="-1"></li>
+                <li>
+                    <a [routerLink]="['/contact-us']">Contact Us</a>
+                </li>
+            </ul>
         </div>
 
         <div class="pw-footer__copyright">

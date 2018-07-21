@@ -1,66 +1,68 @@
-<div>
-    <nav>
-        <div class="nav-wrapper pw-screen-margin">
-            <a href="#" class="pw-logo">PuWifi</a>
-            <ul id="nav-mobile" class="right hide-on-small-and-down">
+<div class="pw">
+    <div>
+        <nav>
+            <div class="nav-wrapper pw-screen-margin">
+                <a href="#" class="pw-logo">PuWifi</a>
+                <ul id="nav-mobile" class="right hide-on-small-and-down">
+                    <li>
+                        <a [routerLink]="['/home']">Home</a>
+                    </li>
+                    <li>
+                        <a [routerLink]="['/app-events']">App Events</a>
+                    </li>
+                    <li>
+                        <a [routerLink]="['/about-us']">About Us</a>
+                    </li>
+                    <li>
+                        <a [routerLink]="['/contact-us']">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <div class="pw-content-area">
+        <!-- Router Outlet -->
+        <router-outlet></router-outlet>
+    </div>
+
+    <div class="pw-footer">
+        <div class="pw-footer__title">
+            Follow Us
+        </div>
+        <div>
+            <ul class="pw-footer__social">
                 <li>
-                    <a [routerLink]="['/home']">Home</a>
+                    <a target="_blank" title="Facebook" href="https://www.facebook.com/array151/">
+                        <i class="pw-footer__social-icon fab fa-facebook-f"></i>
+                    </a>
                 </li>
+
                 <li>
-                    <a [routerLink]="['/app-events']">App Events</a>
+                    <a target="_blank" title="Twitter" href="https://www.twitter.com/array151/">
+                        <i class="pw-footer__social-icon fab fa-twitter"></i>
+                    </a>
                 </li>
+
                 <li>
-                    <a [routerLink]="['/about-us']">About Us</a>
+                    <a target="_blank" title="YouTube" href="https://www.youtube.com/channel/UCLpJhzuN3flKmkqW7AvK9TQ">
+                        <i class="pw-footer__social-icon fab fa-youtube"></i>
+                    </a>
                 </li>
+
                 <li>
-                    <a [routerLink]="['/contact-us']">Contact Us</a>
+                    <a target="_blank" title="Instagram" href="https://www.instagram.com/array151/">
+                        <i class="pw-footer__social-icon fab fa-instagram"></i>
+                    </a>
                 </li>
             </ul>
         </div>
-    </nav>
-</div>
 
-<div class="pw-content-area">
-    <!-- Router Outlet -->
-    <router-outlet></router-outlet>
-</div>
-
-<div class="pw-footer">
-    <div class="pw-footer__title">
-        Follow Us
-    </div>
-    <div>
-        <ul class="pw-footer__social">
-            <li>
-                <a target="_blank" title="Facebook" href="https://www.facebook.com/array151/">
-                    <i class="pw-footer__social-icon fab fa-facebook-f"></i>
-                </a>
-            </li>
-
-            <li>
-                <a target="_blank" title="Twitter" href="https://www.twitter.com/array151/">
-                    <i class="pw-footer__social-icon fab fa-twitter"></i>
-                </a>
-            </li>
-
-            <li>
-                <a target="_blank" title="YouTube" href="https://www.youtube.com/channel/UCLpJhzuN3flKmkqW7AvK9TQ">
-                    <i class="pw-footer__social-icon fab fa-youtube"></i>
-                </a>
-            </li>
-
-            <li>
-                <a target="_blank" title="Instagram" href="https://www.instagram.com/array151/">
-                    <i class="pw-footer__social-icon fab fa-instagram"></i>
-                </a>
-            </li>
-        </ul>
-    </div>
-
-    <div class="pw-footer__copyright">
-        Copyright © 2018 PuWifi
-        <div style="text-align: center">
-            <a href="http://www.array151.com" target="_blank">Array151</a>
+        <div class="pw-footer__copyright">
+            Copyright © 2018 PuWifi
+            <div style="text-align: center">
+                <a href="http://www.array151.com" target="_blank">Array151</a>
+            </div>
         </div>
     </div>
 </div>
